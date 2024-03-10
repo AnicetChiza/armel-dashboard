@@ -44,6 +44,10 @@ button {
 .welcome-login {
   padding: 20px 30px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   color: var(--whiteColor);
   background-color: var(--blueColor);
 }
@@ -61,11 +65,39 @@ button {
 }
 
 .login-form {
-  text-align: center;
   padding: 20px 30px;
   background-color: var(--whiteColor);
 }
 .login-form h3 {
+  text-align: center;
+  margin-top: 20px;
   margin-bottom: 20px;
   color: var(--blueColor);
+}
+.login-form .forgotten-password {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  gap: 5px;
+  -webkit-column-gap: 5px;
+}
+.login-form .forgotten-password a {
+  color: var(--blueColor);
+}
+.login-form .login-button {
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.login-form .login-button button {
+  width: fit-content;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: 700;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: var(--whiteColor);
+  background-color: var(--blueColor);
 }/*# sourceMappingURL=index.css.map */
