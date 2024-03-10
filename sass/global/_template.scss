@@ -7,3 +7,23 @@ body {
     font-family: u.$font-poppins;
     background-color: var(--grayColor);
 }
+
+
+/********** HEADER **********/
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+    color: var(--whiteColor);
+    background-color: var(--blueColor);
+    .user {
+        .search {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            -webkit-column-gap: 10px;
+        }
+    }
+}
