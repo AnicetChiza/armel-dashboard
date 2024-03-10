@@ -40,7 +40,17 @@ header .user .search input {
   background: unset;
 }
 
+/********** PRINCIPAL SECTION **********/
+.principal-Section {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 20% auto;
+}
+
 /********** NAV BAR **********/
+nav {
+  background-color: var(--blueColor);
+}
 /********** RESET **********/
 * {
   margin: 0;
