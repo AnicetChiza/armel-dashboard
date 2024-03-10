@@ -60,9 +60,12 @@ nav {
             align-items: center;
             gap: 5px;
             -webkit-column-gap: 5px;
+            color: var(--blueColor);
+            background-color: var(--whiteColor);
         }
     }
     .logout {
+        margin-top: 400px;
         button {
             display: flex;
             align-items: center;
@@ -71,6 +74,7 @@ nav {
             color: var(--blueColor);
             padding: 10px 20px;
             border-radius: 20px;
+            font-weight: 600;
             background-color: var(--whiteColor);
         }
     }

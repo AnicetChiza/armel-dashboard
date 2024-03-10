@@ -58,6 +58,11 @@ nav .nav-content a {
   align-items: center;
   gap: 5px;
   -webkit-column-gap: 5px;
+  color: var(--blueColor);
+  background-color: var(--whiteColor);
+}
+nav .logout {
+  margin-top: 400px;
 }
 nav .logout button {
   display: flex;
@@ -67,6 +72,7 @@ nav .logout button {
   color: var(--blueColor);
   padding: 10px 20px;
   border-radius: 20px;
+  font-weight: 600;
   background-color: var(--whiteColor);
 }
 
