@@ -19,7 +19,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 30px 40px;
+  padding: 15px 40px;
   color: var(--whiteColor);
   background-color: var(--blueColor);
 }
@@ -27,9 +27,20 @@ header .user .search {
   display: flex;
   align-items: center;
   gap: 10px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  width: fit-content;
   -webkit-column-gap: 10px;
+  background-color: var(--whiteColor);
+}
+header .user .search i {
+  color: var(--blueColor);
+}
+header .user .search input {
+  background: unset;
 }
 
+/********** NAV BAR **********/
 /********** RESET **********/
 * {
   margin: 0;

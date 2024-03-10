@@ -15,7 +15,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 40px;
+    padding: 15px 40px;
     color: var(--whiteColor);
     background-color: var(--blueColor);
     .user {
@@ -23,7 +23,20 @@ header {
             display: flex;
             align-items: center;
             gap: 10px;
+            padding: 10px 20px;
+            border-radius: 20px;
+            width: fit-content;
             -webkit-column-gap: 10px;
+            background-color: var(--whiteColor);
+            i {
+                color: var(--blueColor);
+            }
+            input {
+                background: unset;
+            }
         }
     }
 }
+
+
+/********** NAV BAR **********/
