@@ -20,4 +20,34 @@ body {
   padding: 0;
   text-decoration: none;
   box-sizing: border-box;
+}
+
+.login-section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-section .login-container {
+  display: flex;
+}
+
+.welcome-login {
+  padding: 20px 30px;
+  text-align: center;
+  color: var(--whiteColor);
+  background-color: var(--blueColor);
+}
+.welcome-login div h3 {
+  margin-bottom: 15px;
+}
+.welcome-login div span {
+  display: flex;
+  width: fit-content;
+  padding: 10px 20px;
+  margin: auto;
+  margin-top: 15px;
+  border-radius: 30px;
+  border: 2px solid var(--whiteColor);
 }/*# sourceMappingURL=index.css.map */
