@@ -7,4 +7,10 @@
 }
 
 /********** FONT **********/
-/********** PALETTE COLORS **********//*# sourceMappingURL=index.css.map */
+/********** PALETTE COLORS **********/
+:root {
+  --whiteColor: #fff;
+  --blackColor: #000;
+  --grayColor: #d0d7e1;
+  --blueColor: #064469;
+}/*# sourceMappingURL=index.css.map */
