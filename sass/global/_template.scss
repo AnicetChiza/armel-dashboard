@@ -1,0 +1,9 @@
+@use '../utils/' as u;
+
+/********** BODY PROPERTIES **********/
+
+body {
+    font-size: 1rem;
+    font-family: u.$font-poppins;
+    background-color: var(--grayColor);
+}
