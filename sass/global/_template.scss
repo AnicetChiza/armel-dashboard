@@ -61,16 +61,15 @@ nav {
     padding-left: 40px;
     .home {
         @include nav-home;
-        transition: 0.5s;
-        border-radius: 25px;
-        background-color: var(--blueColor);
+        transition: 0.8s;
+        transition-delay: 0.3s;
         p {
             font-size: 0.8rem;
         }
         i {
             @include nav-icon;
             color: var(--whiteColor);
-            //background-color: var(--blueColor);
+            background-color: var(--blueColor);
         }
         &:hover {
             width: fit-content;
