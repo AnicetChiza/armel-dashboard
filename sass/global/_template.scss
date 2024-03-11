@@ -61,8 +61,8 @@ nav {
     padding-left: 40px;
     .home {
         @include nav-home;
-        transition: 0.8s;
-        transition-delay: 0.3s;
+        transition: 0.5s;
+        transition-delay: 0.2s;
         p {
             font-size: 0.8rem;
         }
