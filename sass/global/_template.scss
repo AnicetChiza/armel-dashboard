@@ -60,9 +60,7 @@ nav {
 .nav-content {
     padding-left: 40px;
     .home {
-        width: 50px;
         @include nav-home;
-        transition: width 0.8s;
         p {
             font-size: 0.8rem;
         }
@@ -72,7 +70,7 @@ nav {
             background-color: var(--blueColor);
         }
         &:hover {
-            width: 100px;
+            width: 100%;
             border-radius: 25px;
             @include nav-hover;
         }
@@ -88,6 +86,7 @@ nav {
             background-color: var(--whiteColor);
         }
         &:hover {
+            width: 100%;
             @include nav-hover;
             i {
                 color: var(--whiteColor);
