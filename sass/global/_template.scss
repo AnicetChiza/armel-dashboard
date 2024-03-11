@@ -1,4 +1,5 @@
 @use '../utils/' as u;
+@use '../utils/' as *;
 
 /********** BODY PROPERTIES **********/
 
@@ -15,9 +16,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 40px;
-    color: var(--whiteColor);
-    background-color: var(--blueColor);
+    padding: 20px 40px;
+    color: var(--blueColor);
+    box-shadow: 0px 5px 15px var(--grayShadow);
     .user {
         .search {
             display: flex;
@@ -51,28 +52,31 @@ header {
 /********** NAV BAR **********/
 
 nav {
-    height: 90vh;
-    padding: 20px 0 0 40px;
-    background-color: var(--blueColor);
-    .nav-content {
-        a {
-            display: flex;
-            align-items: center;
-            gap: 5px;
-            -webkit-column-gap: 5px;
+    height: 80vh;
+    display: flex;
+    place-items: center;
+}
+
+.nav-content {
+    padding-left: 40px;
+    .home {
+        @include nav-home;
+        i {
+            @include nav-icon;
+            color: var(--whiteColor);
+            background-color: var(--blueColor);
+        }
+        &:hover {
+            border-radius: 25px;
+            color: var(--whiteColor);
+            background-color: var(--blueColor);
         }
     }
-    .logout {
-        margin-top: 400px;
-        button {
-            display: flex;
-            align-items: center;
-            gap: 5px;
-            -webkit-column-gap: 5px;
+    a {
+        @include nav-home;
+        i {
+            @include nav-icon;
             color: var(--blueColor);
-            padding: 10px 20px;
-            border-radius: 20px;
-            font-weight: 600;
             background-color: var(--whiteColor);
         }
     }
