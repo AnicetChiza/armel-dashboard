@@ -67,6 +67,7 @@ nav {
   -webkit-column-gap: 5px;
   padding-right: 20px;
   transition: width 0.8s 0.2s;
+  width: fit-content;
 }
 .nav-content .home p {
   font-size: 0.8rem;
@@ -79,7 +80,7 @@ nav {
   background-color: var(--blueColor);
 }
 .nav-content .home:hover {
-  width: 100%;
+  width: fit-content;
   border-radius: 25px;
   border-radius: 25px;
   color: var(--whiteColor);
