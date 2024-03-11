@@ -61,23 +61,36 @@ nav {
     padding-left: 40px;
     .home {
         @include nav-home;
+        transition-duration: 0.5s;
+        transition-delay: 0.2s;
+        p {
+            font-size: 0.8rem;
+        }
         i {
             @include nav-icon;
             color: var(--whiteColor);
             background-color: var(--blueColor);
         }
         &:hover {
-            border-radius: 25px;
-            color: var(--whiteColor);
-            background-color: var(--blueColor);
+            @include nav-hover;
         }
     }
     a {
         @include nav-home;
+        p {
+            font-size: 0.8rem;
+        }
         i {
             @include nav-icon;
             color: var(--blueColor);
             background-color: var(--whiteColor);
+        }
+        &:hover {
+            @include nav-hover;
+            i {
+                color: var(--whiteColor);
+                background: none;
+            }
         }
     }
 }

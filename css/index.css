@@ -62,14 +62,18 @@ nav {
   display: flex;
   align-items: center;
   gap: 5px;
+  margin-top: 10px;
   color: var(--grayColor);
   -webkit-column-gap: 5px;
   padding-right: 20px;
-  transition: 0.8s;
+  transition-duration: 0.5s;
   transition-delay: 0.2s;
 }
+.nav-content .home p {
+  font-size: 0.8rem;
+}
 .nav-content .home i {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   border-radius: 50%;
   padding: 12px 12px;
   color: var(--whiteColor);
@@ -84,18 +88,29 @@ nav {
   display: flex;
   align-items: center;
   gap: 5px;
+  margin-top: 10px;
   color: var(--grayColor);
   -webkit-column-gap: 5px;
   padding-right: 20px;
-  transition: 0.8s;
-  transition-delay: 0.2s;
+}
+.nav-content a p {
+  font-size: 0.8rem;
 }
 .nav-content a i {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   border-radius: 50%;
   padding: 12px 12px;
   color: var(--blueColor);
   background-color: var(--whiteColor);
+}
+.nav-content a:hover {
+  border-radius: 25px;
+  color: var(--whiteColor);
+  background-color: var(--blueColor);
+}
+.nav-content a:hover i {
+  color: var(--whiteColor);
+  background: none;
 }
 
 /********** RESET **********/
