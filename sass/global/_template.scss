@@ -45,7 +45,7 @@ header {
 .principal-Section {
     margin-top: 10px;
     display: grid;
-    grid-template-columns: 20% auto;
+    grid-template-columns: 15% auto;
 }
 
 
@@ -94,4 +94,31 @@ nav {
             }
         }
     }
+    button {
+        @include nav-home;
+        background: unset;
+        i {
+            @include nav-icon;
+            color: var(--blueColor);
+            background-color: var(--whiteColor);
+        }
+        &:hover {
+            @include nav-hover;
+            i {
+                color: var(--whiteColor);
+                background: none;
+            }
+            p {
+                padding-right: 15px;
+                font-size: 0.8rem;
+            }
+        }
+    }
+}
+
+
+/********** RIGHT CONTENT **********/
+
+.class-content {
+    padding: 10px 40px;
 }

@@ -45,7 +45,7 @@ header .user .search input {
 .principal-Section {
   margin-top: 10px;
   display: grid;
-  grid-template-columns: 20% auto;
+  grid-template-columns: 15% auto;
 }
 
 /********** NAV BAR **********/
@@ -110,6 +110,40 @@ nav {
 .nav-content a:hover i {
   color: var(--whiteColor);
   background: none;
+}
+.nav-content button {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  width: fit-content;
+  color: var(--grayColor);
+  transition: width 0.8s 0.2s;
+  background: unset;
+}
+.nav-content button i {
+  font-size: 1.5rem;
+  border-radius: 50%;
+  padding: 10px 10px;
+  color: var(--blueColor);
+  background-color: var(--whiteColor);
+}
+.nav-content button:hover {
+  border-radius: 25px;
+  color: var(--whiteColor);
+  background-color: var(--blueColor);
+}
+.nav-content button:hover i {
+  color: var(--whiteColor);
+  background: none;
+}
+.nav-content button:hover p {
+  padding-right: 15px;
+  font-size: 0.8rem;
+}
+
+/********** RIGHT CONTENT **********/
+.class-content {
+  padding: 10px 40px;
 }
 
 /********** RESET **********/
