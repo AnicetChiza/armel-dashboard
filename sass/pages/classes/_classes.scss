@@ -12,12 +12,11 @@
         &:hover {
             box-shadow: 0px 20px 25px var(--grayShadow);
         }
-    }
-    .details {
-        width: 100%;
-        padding: 10px 20px;
-        text-align: center;
-        color: var(--whiteColor);
-        background-color: var(--blueColor);
+        .details {
+            align-self: right;
+            padding: 10px 20px;
+            color: var(--whiteColor);
+            background-color: var(--blueColor);
+        }
     }
 }
