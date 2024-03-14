@@ -16,7 +16,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 40px;
+    padding: 20px 30px;
     color: var(--blueColor);
     box-shadow: 0px 5px 15px var(--grayShadow);
     .user {
@@ -58,11 +58,11 @@ nav {
 }
 
 .nav-content {
-    padding-left: 40px;
+    padding-left: 30px;
     .home {
         @include nav-home;
-        width: fit-content;
         p {
+            padding-right: 15px;
             font-size: 0.8rem;
         }
         i {
@@ -71,7 +71,6 @@ nav {
             background-color: var(--blueColor);
         }
         &:hover {
-            width: fit-content;
             border-radius: 25px;
             @include nav-hover;
         }
@@ -79,6 +78,7 @@ nav {
     a {
         @include nav-home;
         p {
+            padding-right: 15px;
             font-size: 0.8rem;
         }
         i {
@@ -87,7 +87,6 @@ nav {
             background-color: var(--whiteColor);
         }
         &:hover {
-            width: 100%;
             @include nav-hover;
             i {
                 color: var(--whiteColor);
