@@ -12,17 +12,20 @@
         &:hover {
             box-shadow: 0px 20px 25px var(--grayShadow);
         }
+        p {
+            text-transform: uppercase;
+            font-weight: 600;
+            margin-bottom: 10px;
+            width: fit-content;
+            color: var(--blueColor);
+            border-bottom: 1px solid var(--blueColor);
+        }
         .details {
             width: fit-content;
             padding: 10px 20px;
             font-size: 0.8rem;
             color: var(--whiteColor);
             background: linear-gradient(90deg, var(--blueColor), var(--grayShadow));
-        }
-        strong {
-            background: linear-gradient(to bottom, var(--blueColor), var(--grayShadow));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
         }
     }
 }
