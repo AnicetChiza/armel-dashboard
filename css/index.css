@@ -298,6 +298,7 @@ button {
   color: var(--blueColor);
 }
 .all-classes .items div:hover {
+  transform: translateY(0.3rem);
   border: 1px solid var(--blueColor);
   background-color: var(--blueColor);
 }

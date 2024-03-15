@@ -39,6 +39,7 @@
                 color: var(--blueColor);
             }
             &:hover {
+                transform: translateY(0.3rem);
                 border: 1px solid var(--blueColor);
                 background-color: var(--blueColor);
                 a,
