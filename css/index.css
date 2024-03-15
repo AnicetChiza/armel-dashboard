@@ -146,6 +146,15 @@ nav {
   padding: 10px 40px;
 }
 
+/********** FOOTER **********/
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 20px 30px;
+  color: var(--whiteColor);
+  background-color: var(--blueColor);
+}
+
 /********** RESET **********/
 * {
   margin: 0;
@@ -252,7 +261,8 @@ button {
   gap: 15px;
   -webkit-column-gap: 15px;
   margin-top: 40px;
-  grid-template-columns: auto auto auto auto;
+  margin-bottom: 40px;
+  grid-template-columns: auto auto auto;
 }
 .all-classes .items {
   display: grid;
@@ -262,17 +272,11 @@ button {
 .all-classes .items:hover {
   box-shadow: 0px 20px 25px var(--grayShadow);
 }
-.all-classes .items p {
+.all-classes .items p,
+.all-classes .items strong {
   text-transform: uppercase;
   font-weight: 600;
   margin-bottom: 5px;
   width: fit-content;
   color: var(--blueColor);
-}
-.all-classes .items .details {
-  width: fit-content;
-  padding: 10px 20px;
-  font-size: 0.8rem;
-  color: var(--whiteColor);
-  background: linear-gradient(90deg, var(--blueColor), var(--grayShadow));
 }/*# sourceMappingURL=index.css.map */
