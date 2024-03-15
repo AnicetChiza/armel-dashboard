@@ -27,14 +27,24 @@
             display: flex;
             align-items: center;
             gap: 3px;
-            padding: 7px;
+            padding: 7px 12px;
             font-size: 0.8rem;
             margin-top: 10px;
             -webkit-column-gap: 3px;
+            transition: 0.8s;
+            transition-delay: width 0.2s;
             border: 1px dashed var(--blueColor);
             a,
             i {
                 color: var(--blueColor);
+            }
+            &:hover {
+                border: 1px solid var(--blueColor);
+                background-color: var(--blueColor);
+                a,
+                i {
+                    color: var(--whiteColor);
+                }
             }
         }
     }
