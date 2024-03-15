@@ -13,8 +13,12 @@
         &:hover {
             box-shadow: 0px 20px 25px var(--grayShadow);
         }
-        p,
         strong {
+            font-size: 0.9rem;
+            justify-self: right;
+            color: var(--blueColor);
+        }
+        p {
             text-transform: uppercase;
             font-weight: 600;
         }
