@@ -276,12 +276,19 @@ button {
 .all-classes .items strong {
   text-transform: uppercase;
   font-weight: 600;
-  margin-bottom: 5px;
-  width: fit-content;
-  color: var(--blueColor);
 }
-.all-classes .items .details {
-  padding: 7px;
+.all-classes .items div {
   width: fit-content;
-  border: 1px dotted var(--blueColor);
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  padding: 7px;
+  font-size: 0.8rem;
+  margin-top: 10px;
+  -webkit-column-gap: 3px;
+  border: 1px dashed var(--blueColor);
+}
+.all-classes .items div a,
+.all-classes .items div i {
+  color: var(--blueColor);
 }/*# sourceMappingURL=index.css.map */

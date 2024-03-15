@@ -17,19 +17,21 @@
         strong {
             text-transform: uppercase;
             font-weight: 600;
-            margin-bottom: 5px;
-            width: fit-content;
-            color: var(--blueColor);
         }
-        .details {
-            padding: 7px;
+        div {
             width: fit-content;
-            border: 1px dotted var(--blueColor);
-            //width: fit-content;
-            //padding: 10px 20px;
-            //font-size: 0.8rem;
-            //color: var(--whiteColor);
-            //background: linear-gradient(90deg, var(--blueColor), var(--grayShadow));
+            display: flex;
+            align-items: center;
+            gap: 3px;
+            padding: 7px;
+            font-size: 0.8rem;
+            margin-top: 10px;
+            -webkit-column-gap: 3px;
+            border: 1px dashed var(--blueColor);
+            a,
+            i {
+                color: var(--blueColor);
+            }
         }
     }
 }
