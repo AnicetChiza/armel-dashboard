@@ -279,4 +279,9 @@ button {
   margin-bottom: 5px;
   width: fit-content;
   color: var(--blueColor);
+}
+.all-classes .items .details {
+  padding: 7px;
+  width: fit-content;
+  border: 1px dotted var(--blueColor);
 }/*# sourceMappingURL=index.css.map */

@@ -22,6 +22,9 @@
             color: var(--blueColor);
         }
         .details {
+            padding: 7px;
+            width: fit-content;
+            border: 1px dotted var(--blueColor);
             //width: fit-content;
             //padding: 10px 20px;
             //font-size: 0.8rem;
