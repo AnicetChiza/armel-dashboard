@@ -268,4 +268,9 @@ button {
   font-size: 0.8rem;
   color: var(--whiteColor);
   background: linear-gradient(90deg, var(--blueColor), var(--grayShadow));
+}
+.all-classes .items strong {
+  background: linear-gradient(to bottom, var(--blueColor), var(--grayShadow));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }/*# sourceMappingURL=index.css.map */

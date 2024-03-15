@@ -19,5 +19,10 @@
             color: var(--whiteColor);
             background: linear-gradient(90deg, var(--blueColor), var(--grayShadow));
         }
+        strong {
+            background: linear-gradient(to bottom, var(--blueColor), var(--grayShadow));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
     }
 }
