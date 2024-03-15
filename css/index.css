@@ -265,10 +265,9 @@ button {
 .all-classes .items p {
   text-transform: uppercase;
   font-weight: 600;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   width: fit-content;
   color: var(--blueColor);
-  border-bottom: 1px solid var(--blueColor);
 }
 .all-classes .items .details {
   width: fit-content;
