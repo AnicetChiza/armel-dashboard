@@ -35,25 +35,6 @@
     }
 }
 
-.login-form {
-    padding: 40px 50px;
-    background-color: var(--whiteColor);
-    .login-button {
-        margin-top: 25px;
-        margin-bottom: 20px;
-        button {
-            width: 100%;
-            padding: 10px 20px;
-            border-radius: 5px;
-            font-weight: 700;
-            cursor: pointer;
-            text-transform: uppercase;
-            color: var(--whiteColor);
-            background-color: var(--blueColor);
-        }
-    }
-}
-
 h3 {
     text-align: center;
     margin-top: 20px;
@@ -89,5 +70,25 @@ h3 {
     -webkit-column-gap: 5px;
     a {
         color: var(--blueColor);
+    }
+}
+
+.login-form {
+    padding: 40px 50px;
+    background-color: var(--whiteColor);
+}
+
+.btn {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    button {
+        width: 100%;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-weight: 700;
+        cursor: pointer;
+        text-transform: uppercase;
+        color: var(--whiteColor);
+        background-color: var(--blueColor);
     }
 }

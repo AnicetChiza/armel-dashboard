@@ -145,14 +145,6 @@ nav {
   padding: 10px 40px;
 }
 
-/********** CONNEXION PAGE **********/
-.connect-section {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 /********** FOOTER **********/
 footer {
   width: 100%;
@@ -212,25 +204,6 @@ button {
   border: 2px solid var(--whiteColor);
 }
 
-.login-form {
-  padding: 40px 50px;
-  background-color: var(--whiteColor);
-}
-.login-form .login-button {
-  margin-top: 25px;
-  margin-bottom: 20px;
-}
-.login-form .login-button button {
-  width: 100%;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-weight: 700;
-  cursor: pointer;
-  text-transform: uppercase;
-  color: var(--whiteColor);
-  background-color: var(--blueColor);
-}
-
 h3 {
   text-align: center;
   margin-top: 20px;
@@ -265,6 +238,26 @@ h3 {
 }
 .forgotten-password a {
   color: var(--blueColor);
+}
+
+.login-form {
+  padding: 40px 50px;
+  background-color: var(--whiteColor);
+}
+
+.btn {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.btn button {
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 700;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: var(--whiteColor);
+  background-color: var(--blueColor);
 }
 
 .all-classes {
@@ -317,4 +310,16 @@ h3 {
 .all-classes .items div:hover a,
 .all-classes .items div:hover i {
   color: var(--whiteColor);
+}
+
+.connect-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.connect-section .connect {
+  width: 40%;
+  padding: 20px 30px;
+  background-color: var(--whiteColor);
 }/*# sourceMappingURL=index.css.map */
