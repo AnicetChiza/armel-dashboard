@@ -42,6 +42,16 @@ h3 {
     color: var(--blueColor);
 }
 
+label {
+    position: absolute;
+    margin-top: -48px;
+    margin-left: -2px;
+    padding: 1px;
+    font-size: 0.7rem;
+    color: var(--blueColor);
+    background-color: var(--whiteColor);
+}
+
 .input-content {
     div {
         display: flex;
