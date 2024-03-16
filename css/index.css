@@ -6,7 +6,7 @@
   --grayColor: #d0d7e1;
   --blueColor: #064469;
   --grayShadow: #adadad62;
-  --redColor: #833232;
+  --redColor: #cb4c46;
 }
 
 /********** BODY PROPERTIES **********/
@@ -312,6 +312,33 @@ h3 {
 .all-classes .items div:hover a,
 .all-classes .items div:hover i {
   color: var(--whiteColor);
+}
+
+.list-student {
+  margin-top: 20px;
+}
+
+.student-identity {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px;
+  box-shadow: 0px 5px 10px var(--grayShadow);
+}
+.student-identity div {
+  display: flex;
+  align-items: center;
+}
+.student-identity .modify {
+  font-size: 0.85rem;
+  padding: 8px 10px;
+  color: var(--whiteColor);
+  background-color: var(--blueColor);
+}
+.student-identity .delete {
+  margin-left: 5px;
+  padding: 8px 10px;
+  color: var(--whiteColor);
+  background-color: var(--redColor);
 }
 
 .connect-section {
