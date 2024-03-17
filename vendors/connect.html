@@ -19,16 +19,21 @@
         <div class="connect">
             <h3>Sign In to Account</h3>
             <form action="">
-                <div class="input-content email">
-                    <div>
+                <div class="input-content">
+                    <div class="all-inputs">
                         <i class="fa-solid fa-envelope"></i>
                         <input type="email" placeholder="Enter your email" required>
                     </div>
                 </div>
-                <div class="input-content password">
-                    <div>
+                <div class="input-content">
+                    <div class="all-inputs">
                         <i class="fa-solid fa-lock"></i>
-                        <input type="password" placeholder="Enter your password" required>
+                        <input class="passwords" type="password" placeholder="Enter your password" required>
+                        <div class="eyes">
+                            <i class="fa-solid fa-eye open"></i>
+                            <i class="fa-solid fa-eye-slash close hidden"></i>
+
+                        </div>
                     </div>
                 </div>
                 <div class="forgotten-password">
@@ -36,7 +41,7 @@
                     <a href="#">click here</a>
                 </div>
                 <div class="btn">
-                    <button type="submit">Sign In</button>
+                    <button type="submit">Sign up</button>
                 </div>
             </form>
         </div>
@@ -44,6 +49,8 @@
     <footer>
         <p>©Marksheet Management System</p>
     </footer>
+
+    <script src="../javascript/app.js"></script>
 </body>
 
 </html>
