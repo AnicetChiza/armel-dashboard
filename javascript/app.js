@@ -1,8 +1,5 @@
-const passwordInput = document.querySelector('.password');
-const openIcon = document.querySelector('.open');
+let password = document.querySelector('.passwords');
+let openIcon = document.querySelector('.open');
+let closeIcon = document.querySelector('.close');
 
-passwordInput.onClick = function() {
-    if (passwordInput.type === 'password') {
-        passwordInput.type = 'text'
-    }
-}
+password.setAttribute('type', 'password');

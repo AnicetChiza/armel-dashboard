@@ -69,7 +69,10 @@ label {
             color: var(--blueColor);
         }
         .eyes {
-            i {}
+            cursor: pointer;
+            .hidden {
+                display: none;
+            }
         }
     }
 }
