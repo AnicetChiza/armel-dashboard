@@ -53,7 +53,7 @@ label {
 }
 
 .input-content {
-    div {
+    .all-inputs {
         display: flex;
         align-items: center;
         gap: 10px;
@@ -67,6 +67,9 @@ label {
         i {
             font-size: 0.8rem;
             color: var(--blueColor);
+        }
+        .eyes {
+            i {}
         }
     }
 }

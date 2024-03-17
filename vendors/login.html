@@ -29,16 +29,20 @@
             <div class="login-form">
                 <h3>Log in to Account</h3>
                 <form action="">
-                    <div class="input-content email">
-                        <div>
+                    <div class="input-content">
+                        <div class="all-inputs">
                             <i class="fa-solid fa-envelope"></i>
                             <input type="email" placeholder="Enter your email" required>
                         </div>
                     </div>
-                    <div class="input-content password">
-                        <div>
+                    <div class="input-content">
+                        <div class="all-inputs">
                             <i class="fa-solid fa-lock"></i>
-                            <input type="password" placeholder="Enter your password" required>
+                            <input class="password" type="password" placeholder="Enter your password" required>
+                            <div class="eyes">
+                                <i class="fa-solid fa-eye open"></i>
+                                <i class="fa-solid fa-eye-slash closed"></i>
+                            </div>
                         </div>
                     </div>
                     <div class="forgotten-password">
@@ -53,6 +57,7 @@
         </div>
     </section>
 
+    <script src="../javascript/app.js"></script>
 </body>
 
 </html>
