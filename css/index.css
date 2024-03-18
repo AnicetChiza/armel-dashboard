@@ -333,6 +333,25 @@ label {
   color: var(--whiteColor);
 }
 
+.add-student {
+  display: flex;
+  place-items: right;
+  gap: 5px;
+  -webkit-column-gap: 5px;
+  width: fit-content;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: var(--blueColor);
+}
+.add-student i {
+  color: var(--whiteColor);
+}
+.add-student a {
+  font-size: 0.8rem;
+  color: var(--whiteColor);
+}
+
 .list-student {
   margin-top: 20px;
 }
