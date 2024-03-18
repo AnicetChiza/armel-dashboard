@@ -285,6 +285,15 @@ label {
   background-color: var(--blueColor);
 }
 
+.popup .empty-pop-div {
+  width: 100%;
+  background-color: var(--grayShadow);
+}
+.popup .empty-pop-div .popup-content {
+  padding: 20px 30px;
+  background-color: var(--whiteColor);
+}
+
 .all-classes {
   display: grid;
   gap: 15px;
@@ -388,6 +397,47 @@ label {
   margin-left: 5px;
   padding: 8px 10px;
   color: var(--whiteColor);
+  background-color: var(--redColor);
+}
+
+/********** THESE CODE BELLOW IS FOR OUR POPUP **********/
+.popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
+.popup .empty-popup-div {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--grayShadow);
+}
+.popup .empty-popup-div .popup-content {
+  padding: 40px 40px;
+  width: fit-content;
+  background-color: var(--whiteColor);
+}
+.popup .empty-popup-div .popup-content .popup-btn {
+  display: flex;
+  margin-top: 15px;
+  gap: 5px;
+  -webkit-column-gap: 5px;
+}
+.popup .empty-popup-div .popup-content .popup-btn .popup-cancel {
+  width: 100%;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  color: var(--whiteColor);
+  font-weight: 700;
+  background-color: var(--blueColor);
+}
+.popup .empty-popup-div .popup-content .popup-btn .popup-delete {
+  width: 100%;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  color: var(--whiteColor);
+  font-weight: 700;
   background-color: var(--redColor);
 }
 

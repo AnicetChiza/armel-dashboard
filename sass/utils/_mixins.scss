@@ -18,3 +18,11 @@
     color: var(--whiteColor);
     background-color: var(--blueColor);
 }
+
+@mixin popup-btn {
+    width: 100%;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    color: var(--whiteColor);
+    font-weight: 700;
+}

@@ -115,3 +115,14 @@ label {
         background-color: var(--blueColor);
     }
 }
+
+.popup {
+    .empty-pop-div {
+        width: 100%;
+        background-color: var(--grayShadow);
+        .popup-content {
+            padding: 20px 30px;
+            background-color: var(--whiteColor);
+        }
+    }
+}
