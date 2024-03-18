@@ -1,6 +1,12 @@
 @use '../../utils/' as u;
 .add-new-student {
-    width: 40%;
+    height: 100vh;
     display: flex;
-    place-items: center;
+    align-items: center;
+    justify-content: center;
+    .new-student-items {
+        width: 40%;
+        padding: 20px 30px;
+        background-color: var(--whiteColor);
+    }
 }
