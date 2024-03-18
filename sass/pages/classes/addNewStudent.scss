@@ -1,1 +1,6 @@
 @use '../../utils/' as u;
+.add-new-student {
+    width: 40%;
+    display: flex;
+    place-items: center;
+}

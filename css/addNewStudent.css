@@ -7,4 +7,10 @@
   --blueColor: #064469;
   --grayShadow: #adadad62;
   --redColor: #cb4c46;
+}
+
+.add-new-student {
+  width: 40%;
+  display: flex;
+  place-items: center;
 }/*# sourceMappingURL=addNewStudent.css.map */
