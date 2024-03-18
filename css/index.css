@@ -285,15 +285,6 @@ label {
   background-color: var(--blueColor);
 }
 
-.popup .empty-pop-div {
-  width: 100%;
-  background-color: var(--grayShadow);
-}
-.popup .empty-pop-div .popup-content {
-  padding: 20px 30px;
-  background-color: var(--whiteColor);
-}
-
 .all-classes {
   display: grid;
   gap: 15px;
@@ -405,6 +396,7 @@ label {
   position: absolute;
   top: 50%;
   left: 50%;
+  display: none;
   transform: translate(-50%, -50%);
 }
 .popup .popup-content {
