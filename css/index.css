@@ -241,6 +241,10 @@ label {
 }
 .input-content .all-inputs input {
   width: 100%;
+  font-size: 0.8rem;
+}
+.input-content .all-inputs input::placeholder {
+  font-size: 0.8rem;
 }
 .input-content .all-inputs .eyes {
   cursor: pointer;

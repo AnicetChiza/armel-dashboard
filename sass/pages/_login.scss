@@ -70,6 +70,10 @@ label {
         }
         input {
             width: 100%;
+            font-size: 0.8rem;
+        }
+        input::placeholder {
+            font-size: 0.8rem;
         }
         .eyes {
             cursor: pointer;
