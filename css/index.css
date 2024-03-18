@@ -402,29 +402,24 @@ label {
 
 /********** THESE CODE BELLOW IS FOR OUR POPUP **********/
 .popup {
+  width: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 100%;
   transform: translate(-50%, -50%);
 }
-.popup .empty-popup-div {
-  width: 100%;
-  height: 100vh;
-  background-color: var(--grayShadow);
-}
-.popup .empty-popup-div .popup-content {
+.popup .popup-content {
   padding: 40px 40px;
   width: fit-content;
   background-color: var(--whiteColor);
 }
-.popup .empty-popup-div .popup-content .popup-btn {
+.popup .popup-content .popup-btn {
   display: flex;
   margin-top: 15px;
   gap: 5px;
   -webkit-column-gap: 5px;
 }
-.popup .empty-popup-div .popup-content .popup-btn .popup-cancel {
+.popup .popup-content .popup-btn .popup-cancel {
   width: 100%;
   padding: 10px 15px;
   text-transform: uppercase;
@@ -432,7 +427,7 @@ label {
   font-weight: 700;
   background-color: var(--blueColor);
 }
-.popup .empty-popup-div .popup-content .popup-btn .popup-delete {
+.popup .popup-content .popup-btn .popup-delete {
   width: 100%;
   padding: 10px 15px;
   text-transform: uppercase;
