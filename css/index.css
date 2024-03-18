@@ -335,7 +335,7 @@ label {
 
 .add-student {
   display: flex;
-  justify-content: right;
+  justify-content: flex-end;
 }
 .add-student div {
   display: flex;
@@ -346,14 +346,18 @@ label {
   padding: 10px 15px;
   margin-top: 10px;
   border-radius: 5px;
-  background-color: var(--blueColor);
+  background: linear-gradient(90deg, var(--blueColor), var(--grayShadow));
 }
 .add-student div i {
   color: var(--whiteColor);
 }
 .add-student div a {
+  cursor: pointer;
   font-size: 0.8rem;
   color: var(--whiteColor);
+}
+.add-student div:hover {
+  transform: translateY(0.1rem);
 }
 
 .list-student {
