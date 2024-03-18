@@ -335,7 +335,11 @@ label {
 
 .add-student {
   display: flex;
-  place-items: right;
+  justify-content: right;
+}
+.add-student div {
+  display: flex;
+  align-items: center;
   gap: 5px;
   -webkit-column-gap: 5px;
   width: fit-content;
@@ -344,10 +348,10 @@ label {
   border-radius: 5px;
   background-color: var(--blueColor);
 }
-.add-student i {
+.add-student div i {
   color: var(--whiteColor);
 }
-.add-student a {
+.add-student div a {
   font-size: 0.8rem;
   color: var(--whiteColor);
 }
