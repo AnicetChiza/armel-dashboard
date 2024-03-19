@@ -394,8 +394,36 @@ label {
 
 /********** THESE CODE BELLOW IS FOR OUR POPUP **********/
 .popup .popup-container {
+  width: 30%;
   padding: 30px 30px;
   background-color: var(--whiteColor);
+}
+.popup .popup-container h4 {
+  margin-bottom: 5px;
+  color: var(--blueColor);
+}
+.popup .popup-container .popup-btn {
+  display: flex;
+  gap: 8px;
+  -webkit-column-gap: 8px;
+  margin-top: 15px;
+}
+.popup .popup-container .popup-btn .cancel-popup {
+  width: 100%;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  color: var(--whiteColor);
+  font-weight: 700;
+  color: var(--whiteColor);
+  background: linear-gradient(90deg, var(--blueColor), var(--grayShadow));
+}
+.popup .popup-container .popup-btn .delete-popup {
+  width: 100%;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  color: var(--whiteColor);
+  font-weight: 700;
+  background: linear-gradient(90deg, var(--redColor), var(--grayShadow));
 }
 
 .add-new-student {
