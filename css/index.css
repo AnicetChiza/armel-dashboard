@@ -392,41 +392,6 @@ label {
 }
 
 /********** THESE CODE BELLOW IS FOR OUR POPUP **********/
-.popup {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  display: none;
-  transform: translate(-50%, -50%);
-}
-.popup .popup-content {
-  padding: 40px 40px;
-  width: fit-content;
-  background-color: var(--whiteColor);
-}
-.popup .popup-content .popup-btn {
-  display: flex;
-  margin-top: 15px;
-  gap: 5px;
-  -webkit-column-gap: 5px;
-}
-.popup .popup-content .popup-btn .popup-cancel {
-  width: 100%;
-  padding: 10px 15px;
-  text-transform: uppercase;
-  color: var(--whiteColor);
-  font-weight: 700;
-  background-color: var(--blueColor);
-}
-.popup .popup-content .popup-btn .popup-delete {
-  width: 100%;
-  padding: 10px 15px;
-  text-transform: uppercase;
-  color: var(--whiteColor);
-  font-weight: 700;
-  background-color: var(--redColor);
-}
-
 .add-new-student {
   height: 100vh;
   display: flex;

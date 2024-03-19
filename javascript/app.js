@@ -15,12 +15,3 @@ closeIcon.onclick = function() {
     openIcon.classList.remove('hidden');
     closeIcon.classList.add('hidden');
 }
-
-//FOR THE POPUP THAT WE WILL HAVE INTO OUR MARKSHEET MANAGEMENT SYSTEM
-const deleteBtn = document.querySelector('.delete');
-const cancelPopup = document.querySelector('.popup-cancel');
-const pop = document.querySelector('.popup');
-
-deleteBtn.onclick = function() {
-    pop.classList.remove('hidden');
-}
