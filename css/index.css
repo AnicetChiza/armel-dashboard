@@ -393,6 +393,11 @@ label {
 }
 
 /********** THESE CODE BELLOW IS FOR OUR POPUP **********/
+.popup .popup-container {
+  padding: 30px 30px;
+  background-color: var(--whiteColor);
+}
+
 .add-new-student {
   height: 100vh;
   display: flex;
