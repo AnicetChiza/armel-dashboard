@@ -393,9 +393,14 @@ label {
 }
 
 /********** THESE CODE BELLOW IS FOR OUR POPUP **********/
+.popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .popup .popup-container {
-  width: 30%;
-  padding: 30px 30px;
+  padding: 40px 50px;
   background-color: var(--whiteColor);
 }
 .popup .popup-container h4 {
@@ -424,6 +429,10 @@ label {
   color: var(--whiteColor);
   font-weight: 700;
   background: linear-gradient(90deg, var(--redColor), var(--grayShadow));
+}
+
+.hidden-popup {
+  display: none;
 }
 
 .add-new-student {
