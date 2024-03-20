@@ -12,7 +12,7 @@
         padding: 10px 15px;
         margin-top: 10px;
         border-radius: 5px;
-        background: linear-gradient(90deg, var(--blueColor), var(--grayShadow));
+        background-color: var(--blueColor);
         i {
             color: var(--whiteColor);
         }
@@ -61,9 +61,12 @@
 .popup {
     height: 100%;
     width: 100%;
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     transition: 3s ease;
     transform: translate(-50%, -50%);
     background-color: var(--blackShadow);
@@ -83,11 +86,12 @@
             .cancel-popup {
                 @include popup-btn;
                 color: var(--whiteColor);
-                background: linear-gradient(90deg, var(--blueColor), var(--grayShadow));
+                background: linear-gradient(90deg, var(--blueColor), var(--gray));
+                background-color: var(--blueColor);
             }
             .delete-popup {
                 @include popup-btn;
-                background: linear-gradient(90deg, var(--redColor), var(--grayShadow));
+                background-color: var(--redColor);
             }
         }
     }

@@ -7,7 +7,7 @@
   --blueColor: #064469;
   --grayShadow: #adadad62;
   --redColor: #cb4c46;
-  --blackShadow: #00000091;
+  --blackShadow: rgba(0, 0, 0, 0.274);
 }
 
 /********** BODY PROPERTIES **********/
@@ -351,7 +351,7 @@ label {
   padding: 10px 15px;
   margin-top: 10px;
   border-radius: 5px;
-  background: linear-gradient(90deg, var(--blueColor), var(--grayShadow));
+  background-color: var(--blueColor);
 }
 .add-student div i {
   color: var(--whiteColor);
@@ -397,9 +397,12 @@ label {
 .popup {
   height: 100%;
   width: 100%;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   transition: 3s ease;
   transform: translate(-50%, -50%);
   background-color: var(--blackShadow);
@@ -426,7 +429,8 @@ label {
   color: var(--whiteColor);
   font-weight: 700;
   color: var(--whiteColor);
-  background: linear-gradient(90deg, var(--blueColor), var(--grayShadow));
+  background: linear-gradient(90deg, var(--blueColor), var(--gray));
+  background-color: var(--blueColor);
 }
 .popup .popup-container .popup-btn .delete-popup {
   width: 100%;
@@ -434,7 +438,7 @@ label {
   text-transform: uppercase;
   color: var(--whiteColor);
   font-weight: 700;
-  background: linear-gradient(90deg, var(--redColor), var(--grayShadow));
+  background-color: var(--redColor);
 }
 
 .hidden-popup {
