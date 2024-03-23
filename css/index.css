@@ -143,8 +143,9 @@ nav {
   font-size: 0.8rem;
 }
 
-/********** RIGHT CONTENT **********/
-.class-content {
+/********** RIGHT CONTENT *i was adding the div for modules, i did't use the same code as classes* **********/
+.class-content,
+.design-modules {
   padding: 10px 40px;
 }
 
@@ -467,4 +468,19 @@ label {
   width: 40%;
   padding: 20px 30px;
   background-color: var(--whiteColor);
+}
+
+/********** this is for adding a new class **********/
+.design-modules .add-module {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px 20px;
+  width: fit-content;
+  background-color: var(--blueColor);
+}
+.design-modules .add-module i,
+.design-modules .add-module a {
+  font-size: 0.8rem;
+  color: var(--whiteColor);
 }/*# sourceMappingURL=index.css.map */

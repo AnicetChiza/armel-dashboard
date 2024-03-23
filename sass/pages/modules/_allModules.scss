@@ -1,0 +1,19 @@
+@use '../../utils/' as u;
+
+/********** this is for adding a new class **********/
+
+.design-modules {
+    .add-module {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 10px 20px;
+        width: fit-content;
+        background-color: var(--blueColor);
+        i,
+        a {
+            font-size: 0.8rem;
+            color: var(--whiteColor);
+        }
+    }
+}
