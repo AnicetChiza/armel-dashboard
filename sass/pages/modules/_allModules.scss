@@ -18,4 +18,22 @@
             }
         }
     }
+    .modules {
+        margin-top: 10px;
+        .module-name {
+            padding: 18px;
+            display: flex;
+            justify-content: space-between;
+            box-shadow: 0px 5px 10px var(--grayShadow);
+            div {
+                .modify {
+                    @include btn-popup;
+                    background-color: var(--blueColor);
+                }
+                .delete {
+                    @include btn-popup;
+                }
+            }
+        }
+    }
 }

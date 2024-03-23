@@ -497,4 +497,30 @@ label {
 .design-modules .add-module div a {
   font-size: 0.8rem;
   color: var(--whiteColor);
+}
+.design-modules .modules {
+  margin-top: 10px;
+}
+.design-modules .modules .module-name {
+  padding: 18px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 5px 10px var(--grayShadow);
+}
+.design-modules .modules .module-name div .modify {
+  cursor: pointer;
+  margin-left: 5px;
+  padding: 8px 10px;
+  font-size: 0.85rem;
+  color: var(--whiteColor);
+  background-color: var(--redColor);
+  background-color: var(--blueColor);
+}
+.design-modules .modules .module-name div .delete {
+  cursor: pointer;
+  margin-left: 5px;
+  padding: 8px 10px;
+  font-size: 0.85rem;
+  color: var(--whiteColor);
+  background-color: var(--redColor);
 }/*# sourceMappingURL=index.css.map */
