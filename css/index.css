@@ -499,11 +499,15 @@ label {
   color: var(--whiteColor);
 }
 .design-modules .modules {
+  display: grid;
+  grid-template-columns: auto auto;
   margin-top: 10px;
 }
 .design-modules .modules .module-name {
   padding: 18px;
   display: flex;
+  margin-top: 5px;
+  align-items: center;
   justify-content: space-between;
   box-shadow: 0px 5px 10px var(--grayShadow);
 }
