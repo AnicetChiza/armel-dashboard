@@ -473,14 +473,21 @@ label {
 /********** this is for adding a new class **********/
 .design-modules .add-module {
   display: flex;
-  align-items: center;
   justify-content: flex-end;
-  padding: 10px 20px;
+}
+.design-modules .add-module div {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  margin-top: 15px;
+  border-radius: 5px;
   width: fit-content;
+  gap: 5px;
+  -webkit-column-gap: 5px;
   background-color: var(--blueColor);
 }
-.design-modules .add-module i,
-.design-modules .add-module a {
+.design-modules .add-module div i,
+.design-modules .add-module div a {
   font-size: 0.8rem;
   color: var(--whiteColor);
 }/*# sourceMappingURL=index.css.map */
