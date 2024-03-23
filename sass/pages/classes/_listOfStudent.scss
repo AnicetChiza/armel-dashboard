@@ -1,28 +1,15 @@
 @use '../../utils/' as u;
 @use '../../utils/mixins' as *;
 .add-student {
-    display: flex;
-    justify-content: flex-end;
+    @include right-alignment;
     div {
-        display: flex;
-        align-items: center;
-        gap: 5px;
-        -webkit-column-gap: 5px;
-        width: fit-content;
-        padding: 10px 15px;
-        margin-top: 10px;
-        border-radius: 5px;
-        background-color: var(--blueColor);
-        i {
-            color: var(--whiteColor);
-        }
-        a {
-            cursor: pointer;
-            font-size: 0.8rem;
-            color: var(--whiteColor);
-        }
+        @include right-alignment-div;
         &:hover {
             transform: translateY(0.1rem);
+        }
+        i,
+        a {
+            @include right-alignment-i-a;
         }
     }
 }

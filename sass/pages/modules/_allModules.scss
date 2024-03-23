@@ -1,21 +1,16 @@
 @use '../../utils/' as u;
+@use '../../utils/mixins' as *;
 
 /********** this is for adding a new class **********/
 
 .design-modules {
     .add-module {
-        display: flex;
-        justify-content: flex-end;
+        @include right-alignment;
+        &:hover {
+            transform: translateY(0.1rem);
+        }
         div {
-            display: flex;
-            align-items: center;
-            padding: 10px 15px;
-            margin-top: 15px;
-            border-radius: 5px;
-            width: fit-content;
-            gap: 5px;
-            -webkit-column-gap: 5px;
-            background-color: var(--blueColor);
+            @include right-alignment-div;
             i,
             a {
                 font-size: 0.8rem;

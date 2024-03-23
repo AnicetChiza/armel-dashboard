@@ -1,3 +1,4 @@
+/***** for all the button of adding *****/
 /********** FONT **********/
 /********** PALETTE COLORS **********/
 :root {
@@ -354,16 +355,14 @@ label {
   border-radius: 5px;
   background-color: var(--blueColor);
 }
-.add-student div i {
-  color: var(--whiteColor);
+.add-student div:hover {
+  transform: translateY(0.1rem);
 }
+.add-student div i,
 .add-student div a {
   cursor: pointer;
   font-size: 0.8rem;
   color: var(--whiteColor);
-}
-.add-student div:hover {
-  transform: translateY(0.1rem);
 }
 
 .list-student {
@@ -475,15 +474,18 @@ label {
   display: flex;
   justify-content: flex-end;
 }
+.design-modules .add-module:hover {
+  transform: translateY(0.1rem);
+}
 .design-modules .add-module div {
   display: flex;
   align-items: center;
-  padding: 10px 15px;
-  margin-top: 15px;
-  border-radius: 5px;
-  width: fit-content;
   gap: 5px;
   -webkit-column-gap: 5px;
+  width: fit-content;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border-radius: 5px;
   background-color: var(--blueColor);
 }
 .design-modules .add-module div i,

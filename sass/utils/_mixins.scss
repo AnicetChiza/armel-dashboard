@@ -26,3 +26,29 @@
     color: var(--whiteColor);
     font-weight: 700;
 }
+
+
+/***** for all the button of adding *****/
+
+@mixin right-alignment {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@mixin right-alignment-div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    -webkit-column-gap: 5px;
+    width: fit-content;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: var(--blueColor);
+}
+
+@mixin right-alignment-i-a {
+    cursor: pointer;
+    font-size: 0.8rem;
+    color: var(--whiteColor);
+}
