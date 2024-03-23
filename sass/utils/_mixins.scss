@@ -52,3 +52,14 @@
     font-size: 0.8rem;
     color: var(--whiteColor);
 }
+
+
+/***** this is for all the button of our popup *****/
+
+@mixin delete-popup {
+    cursor: pointer;
+    margin-left: 5px;
+    padding: 8px 10px;
+    color: var(--whiteColor);
+    background-color: var(--redColor);
+}
