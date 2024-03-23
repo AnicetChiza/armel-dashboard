@@ -1,2 +1,18 @@
 @use '../../utils/' as *;
 @use '../../utils/mixins' as u;
+
+/********* all the content of the page titulaire **********/
+
+.add-titulaire {
+    @include right-alignment;
+    &:hover {
+        transform: translateY(0.1rem);
+    }
+    div {
+        @include right-alignment-div;
+        i,
+        a {
+            @include right-alignment-i-a;
+        }
+    }
+}

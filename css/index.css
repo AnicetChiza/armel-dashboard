@@ -147,7 +147,8 @@ nav {
 
 /********** RIGHT CONTENT *i was adding the div for modules, i did't use the same code as classes* **********/
 .class-content,
-.design-modules {
+.design-modules,
+.titulaire-container {
   padding: 10px 40px;
 }
 
@@ -527,4 +528,30 @@ label {
   font-size: 0.85rem;
   color: var(--whiteColor);
   background-color: var(--redColor);
+}
+
+/********* all the content of the page titulaire **********/
+.add-titulaire {
+  display: flex;
+  justify-content: flex-end;
+}
+.add-titulaire:hover {
+  transform: translateY(0.1rem);
+}
+.add-titulaire div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  -webkit-column-gap: 5px;
+  width: fit-content;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: var(--blueColor);
+}
+.add-titulaire div i,
+.add-titulaire div a {
+  cursor: pointer;
+  font-size: 0.8rem;
+  color: var(--whiteColor);
 }/*# sourceMappingURL=index.css.map */
