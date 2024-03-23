@@ -56,10 +56,11 @@
 
 /***** this is for all the button of our popup *****/
 
-@mixin delete-popup {
+@mixin btn-popup {
     cursor: pointer;
     margin-left: 5px;
     padding: 8px 10px;
+    font-size: 0.85rem;
     color: var(--whiteColor);
     background-color: var(--redColor);
 }

@@ -381,15 +381,19 @@ label {
   align-items: center;
 }
 .student-identity .modify {
-  font-size: 0.85rem;
+  cursor: pointer;
+  margin-left: 5px;
   padding: 8px 10px;
+  font-size: 0.85rem;
   color: var(--whiteColor);
+  background-color: var(--redColor);
   background-color: var(--blueColor);
 }
 .student-identity .delete {
   cursor: pointer;
   margin-left: 5px;
   padding: 8px 10px;
+  font-size: 0.85rem;
   color: var(--whiteColor);
   background-color: var(--redColor);
 }

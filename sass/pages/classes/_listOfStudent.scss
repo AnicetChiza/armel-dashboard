@@ -28,13 +28,11 @@
         align-items: center;
     }
     .modify {
-        font-size: 0.85rem;
-        padding: 8px 10px;
-        color: var(--whiteColor);
+        @include btn-popup;
         background-color: var(--blueColor);
     }
     .delete {
-        @include delete-popup;
+        @include btn-popup;
     }
 }
 
