@@ -554,4 +554,19 @@ label {
   cursor: pointer;
   font-size: 0.8rem;
   color: var(--whiteColor);
+}
+
+.titulaire-item {
+  margin-top: 10px;
+}
+.titulaire-item .item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.titulaire-item .item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  object-fit: cover;
 }/*# sourceMappingURL=index.css.map */
