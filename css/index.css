@@ -557,7 +557,10 @@ label {
 }
 
 .titulaire-item {
-  margin-top: 10px;
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px 15px;
+  box-shadow: 0px 5px 15px var(--grayShadow);
 }
 .titulaire-item .item {
   display: flex;
@@ -565,8 +568,27 @@ label {
   gap: 8px;
 }
 .titulaire-item .item img {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 100%;
   object-fit: cover;
+}
+.titulaire-item .item .modify {
+  cursor: pointer;
+  margin-left: 5px;
+  padding: 8px 10px;
+  font-size: 0.85rem;
+  color: var(--whiteColor);
+  background-color: var(--redColor);
+  margin-top: 5px;
+  background-color: var(--blueColor);
+}
+.titulaire-item .item .delete {
+  margin-top: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+  padding: 8px 10px;
+  font-size: 0.85rem;
+  color: var(--whiteColor);
+  background-color: var(--redColor);
 }/*# sourceMappingURL=index.css.map */
