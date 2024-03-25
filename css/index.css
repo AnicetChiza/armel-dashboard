@@ -385,7 +385,7 @@ label {
   cursor: pointer;
   margin-left: 5px;
   padding: 8px 10px;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   color: var(--whiteColor);
   background-color: var(--redColor);
   background-color: var(--blueColor);
@@ -394,7 +394,7 @@ label {
   cursor: pointer;
   margin-left: 5px;
   padding: 8px 10px;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   color: var(--whiteColor);
   background-color: var(--redColor);
 }
@@ -516,7 +516,7 @@ label {
   cursor: pointer;
   margin-left: 5px;
   padding: 8px 10px;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   color: var(--whiteColor);
   background-color: var(--redColor);
   background-color: var(--blueColor);
@@ -525,7 +525,7 @@ label {
   cursor: pointer;
   margin-left: 5px;
   padding: 8px 10px;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   color: var(--whiteColor);
   background-color: var(--redColor);
 }
@@ -556,6 +556,11 @@ label {
   color: var(--whiteColor);
 }
 
+.all-titulaire {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
 .titulaire-item {
   width: 100%;
   margin-top: 15px;
@@ -568,8 +573,8 @@ label {
   gap: 8px;
 }
 .titulaire-item .item img {
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   border-radius: 100%;
   object-fit: cover;
 }
@@ -577,18 +582,20 @@ label {
   cursor: pointer;
   margin-left: 5px;
   padding: 8px 10px;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   color: var(--whiteColor);
   background-color: var(--redColor);
   margin-top: 5px;
+  font-size: 0.8rem;
   background-color: var(--blueColor);
 }
 .titulaire-item .item .delete {
   margin-top: 5px;
+  font-size: 0.8rem;
   cursor: pointer;
   margin-left: 5px;
   padding: 8px 10px;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   color: var(--whiteColor);
   background-color: var(--redColor);
 }/*# sourceMappingURL=index.css.map */
