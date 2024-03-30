@@ -30,12 +30,19 @@
             justify-content: space-between;
             box-shadow: 0px 5px 10px var(--grayShadow);
             div {
+                display: flex;
+                align-items: center;
+                p {}
                 .modify {
                     @include btn-popup;
-                    background-color: var(--blueColor);
+                    color: var(--blueColor);
+                    //background-color: var(--grayColor); 
+                    background-color: var(--btnColor);
                 }
                 .delete {
                     @include btn-popup;
+                    color: var(--redColor);
+                    background-color: var(--btnColor);
                 }
             }
         }

@@ -9,7 +9,8 @@
   --blueColor: #064469;
   --grayShadow: #adadad62;
   --redColor: #cb4c46;
-  --blackShadow: rgba(0, 0, 0, 0.274);
+  --btnColor: rgb(239, 237, 237);
+  --blackShadow: #00000046;
 }
 
 /********** BODY PROPERTIES **********/
@@ -386,8 +387,7 @@ label {
   margin-left: 5px;
   padding: 8px 10px;
   font-size: 0.8rem;
-  color: var(--whiteColor);
-  background-color: var(--redColor);
+  border-radius: 3px;
   background-color: var(--blueColor);
 }
 .student-identity .delete {
@@ -395,8 +395,7 @@ label {
   margin-left: 5px;
   padding: 8px 10px;
   font-size: 0.8rem;
-  color: var(--whiteColor);
-  background-color: var(--redColor);
+  border-radius: 3px;
 }
 
 /********** THESE CODE BELLOW IS FOR OUR POPUP **********/
@@ -512,22 +511,27 @@ label {
   justify-content: space-between;
   box-shadow: 0px 5px 10px var(--grayShadow);
 }
+.design-modules .modules .module-name div {
+  display: flex;
+  align-items: center;
+}
 .design-modules .modules .module-name div .modify {
   cursor: pointer;
   margin-left: 5px;
   padding: 8px 10px;
   font-size: 0.8rem;
-  color: var(--whiteColor);
-  background-color: var(--redColor);
-  background-color: var(--blueColor);
+  border-radius: 3px;
+  color: var(--blueColor);
+  background-color: var(--btnColor);
 }
 .design-modules .modules .module-name div .delete {
   cursor: pointer;
   margin-left: 5px;
   padding: 8px 10px;
   font-size: 0.8rem;
-  color: var(--whiteColor);
-  background-color: var(--redColor);
+  border-radius: 3px;
+  color: var(--redColor);
+  background-color: var(--btnColor);
 }
 
 /********* all the content of the page titulaire **********/
@@ -583,8 +587,7 @@ label {
   margin-left: 5px;
   padding: 8px 10px;
   font-size: 0.8rem;
-  color: var(--whiteColor);
-  background-color: var(--redColor);
+  border-radius: 3px;
   margin-top: 5px;
   font-size: 0.8rem;
   background-color: var(--blueColor);
@@ -596,6 +599,5 @@ label {
   margin-left: 5px;
   padding: 8px 10px;
   font-size: 0.8rem;
-  color: var(--whiteColor);
-  background-color: var(--redColor);
+  border-radius: 3px;
 }/*# sourceMappingURL=index.css.map */
