@@ -34,7 +34,7 @@
                 align-items: center;
                 span {
                     color: var(--blueColor);
-                    font-weight: bolder
+                    font-weight: 600;
                 }
                 .modify {
                     @include btn-popup;

@@ -41,12 +41,15 @@
             @include btn-popup;
             margin-top: 5px;
             font-size: 0.8rem;
-            background-color: var(--blueColor);
+            color: var(--blueColor);
+            background-color: var(--btnColor);
         }
         .delete {
             margin-top: 5px;
             font-size: 0.8rem;
             @include btn-popup;
+            color: var(--redColor);
+            background-color: var(--btnColor);
         }
     }
 }

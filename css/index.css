@@ -520,7 +520,7 @@ label {
 }
 .design-modules .modules .module-name div span {
   color: var(--blueColor);
-  font-weight: bolder;
+  font-weight: 600;
 }
 .design-modules .modules .module-name div .modify {
   cursor: pointer;
@@ -597,7 +597,8 @@ label {
   border-radius: 3px;
   margin-top: 5px;
   font-size: 0.8rem;
-  background-color: var(--blueColor);
+  color: var(--blueColor);
+  background-color: var(--btnColor);
 }
 .titulaire-item .item .delete {
   margin-top: 5px;
@@ -607,4 +608,6 @@ label {
   padding: 8px 10px;
   font-size: 0.8rem;
   border-radius: 3px;
+  color: var(--redColor);
+  background-color: var(--btnColor);
 }/*# sourceMappingURL=index.css.map */
