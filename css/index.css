@@ -388,7 +388,8 @@ label {
   padding: 8px 10px;
   font-size: 0.8rem;
   border-radius: 3px;
-  background-color: var(--blueColor);
+  color: var(--blueColor);
+  background-color: var(--btnColor);
 }
 .student-identity .delete {
   cursor: pointer;
@@ -396,6 +397,8 @@ label {
   padding: 8px 10px;
   font-size: 0.8rem;
   border-radius: 3px;
+  color: var(--redColor);
+  background-color: var(--btnColor);
 }
 
 /********** THESE CODE BELLOW IS FOR OUR POPUP **********/
