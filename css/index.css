@@ -518,6 +518,10 @@ label {
   display: flex;
   align-items: center;
 }
+.design-modules .modules .module-name div span {
+  color: var(--blueColor);
+  font-weight: bolder;
+}
 .design-modules .modules .module-name div .modify {
   cursor: pointer;
   margin-left: 5px;

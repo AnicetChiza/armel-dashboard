@@ -32,11 +32,13 @@
             div {
                 display: flex;
                 align-items: center;
-                p {}
+                span {
+                    color: var(--blueColor);
+                    font-weight: bolder
+                }
                 .modify {
                     @include btn-popup;
                     color: var(--blueColor);
-                    //background-color: var(--grayColor); 
                     background-color: var(--btnColor);
                 }
                 .delete {
