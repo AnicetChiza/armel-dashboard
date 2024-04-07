@@ -21,7 +21,22 @@
         div {
             padding: 5px 10px;
             width: fit-content;
+            font-size: 0.8rem;
+            transition: 0.8s;
+            transition-delay: 0.2s;
             border: 1px dashed var(--blueColor);
+            a,
+            i {
+                color: var(--blueColor);
+            }
+            &:hover {
+                background-color: var(--blueColor);
+                border: 1px solid var(--blueColor);
+                a,
+                i {
+                    color: var(--whiteColor);
+                }
+            }
         }
     }
 }

@@ -315,7 +315,22 @@ label {
 .all-classes .classe-content div {
   padding: 5px 10px;
   width: fit-content;
+  font-size: 0.8rem;
+  transition: 0.8s;
+  transition-delay: 0.2s;
   border: 1px dashed var(--blueColor);
+}
+.all-classes .classe-content div a,
+.all-classes .classe-content div i {
+  color: var(--blueColor);
+}
+.all-classes .classe-content div:hover {
+  background-color: var(--blueColor);
+  border: 1px solid var(--blueColor);
+}
+.all-classes .classe-content div:hover a,
+.all-classes .classe-content div:hover i {
+  color: var(--whiteColor);
 }
 
 .add-student {
