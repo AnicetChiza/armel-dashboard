@@ -301,24 +301,20 @@ label {
 .all-classes .classe-content {
   padding: 20px 20px;
   box-shadow: 0px 5px 10px var(--grayShadow);
-}
-.all-classes .classe-content .items {
   color: var(--blackColor);
 }
-.all-classes .classe-content .items strong {
+.all-classes .classe-content strong {
   display: flex;
   justify-content: flex-end;
   color: var(--blueColor);
 }
-.all-classes .classe-content .items p {
+.all-classes .classe-content p {
   margin-bottom: 10px;
 }
-.all-classes .classe-content .items div {
-  padding: 10px;
-  border: 2px dashed var(--blueColor);
-}
-.all-classes .classe-content .items div i {
-  color: var(--blueColor);
+.all-classes .classe-content div {
+  padding: 5px 10px;
+  width: fit-content;
+  border: 1px dashed var(--blueColor);
 }
 
 .add-student {
