@@ -297,6 +297,7 @@ label {
   -webkit-column-gap: 15px;
   margin-top: 40px;
   margin-bottom: 40px;
+  grid-template-columns: auto auto auto;
 }
 .all-classes .classe-content {
   padding: 20px 20px;
