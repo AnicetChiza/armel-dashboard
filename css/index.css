@@ -297,50 +297,28 @@ label {
   -webkit-column-gap: 15px;
   margin-top: 40px;
   margin-bottom: 40px;
-  grid-template-columns: auto auto auto;
 }
-.all-classes .items {
-  display: grid;
+.all-classes .classe-content {
   padding: 20px 20px;
-  box-shadow: 0px 10px 15px var(--grayShadow);
+  box-shadow: 0px 5px 10px var(--grayShadow);
 }
-.all-classes .items:hover {
-  box-shadow: 0px 20px 25px var(--grayShadow);
+.all-classes .classe-content .items {
+  color: var(--blackColor);
 }
-.all-classes .items strong {
-  font-size: 0.9rem;
-  justify-self: right;
-  color: var(--blueColor);
-}
-.all-classes .items p {
-  text-transform: uppercase;
-  font-weight: 600;
-}
-.all-classes .items div {
-  width: fit-content;
+.all-classes .classe-content .items strong {
   display: flex;
-  align-items: center;
-  gap: 3px;
-  padding: 7px 12px;
-  font-size: 0.8rem;
-  margin-top: 10px;
-  -webkit-column-gap: 3px;
-  transition: 0.8s;
-  transition-delay: width 0.2s;
-  border: 1px dashed var(--blueColor);
-}
-.all-classes .items div a,
-.all-classes .items div i {
+  justify-content: flex-end;
   color: var(--blueColor);
 }
-.all-classes .items div:hover {
-  transform: translateY(0.1rem);
-  border: 1px solid var(--blueColor);
-  background-color: var(--blueColor);
+.all-classes .classe-content .items p {
+  margin-bottom: 10px;
 }
-.all-classes .items div:hover a,
-.all-classes .items div:hover i {
-  color: var(--whiteColor);
+.all-classes .classe-content .items div {
+  padding: 10px;
+  border: 2px dashed var(--blueColor);
+}
+.all-classes .classe-content .items div i {
+  color: var(--blueColor);
 }
 
 .add-student {
