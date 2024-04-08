@@ -312,7 +312,7 @@ label {
 .all-classes .classe-content p {
   margin-bottom: 10px;
 }
-.all-classes .classe-content div {
+.all-classes .classe-content .icons-view {
   padding: 5px 10px;
   width: fit-content;
   font-size: 0.8rem;
@@ -320,17 +320,26 @@ label {
   transition-delay: 0.2s;
   border: 1px dashed var(--blueColor);
 }
-.all-classes .classe-content div a,
-.all-classes .classe-content div i {
+.all-classes .classe-content .icons-view a,
+.all-classes .classe-content .icons-view i {
   color: var(--blueColor);
 }
-.all-classes .classe-content div:hover {
+.all-classes .classe-content .icons-view:hover {
   background-color: var(--blueColor);
   border: 1px solid var(--blueColor);
 }
-.all-classes .classe-content div:hover a,
-.all-classes .classe-content div:hover i {
+.all-classes .classe-content .icons-view:hover a,
+.all-classes .classe-content .icons-view:hover i {
   color: var(--whiteColor);
+}
+.all-classes .classe-content .click-div {
+  display: flex;
+  gap: 5px;
+  -webkit-column-gap: 5px;
+  align-items: center;
+  color: var(--blueColor);
+  margin-top: 10px;
+  justify-content: flex-end;
 }
 
 .add-student {

@@ -18,7 +18,7 @@
         p {
             margin-bottom: 10px;
         }
-        div {
+        .icons-view {
             padding: 5px 10px;
             width: fit-content;
             font-size: 0.8rem;
@@ -37,6 +37,15 @@
                     color: var(--whiteColor);
                 }
             }
+        }
+        .click-div {
+            display: flex;
+            gap: 5px;
+            -webkit-column-gap: 5px;
+            align-items: center;
+            color: var(--blueColor);
+            margin-top: 10px;
+            justify-content: flex-end;
         }
     }
 }
