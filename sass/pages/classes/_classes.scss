@@ -4,7 +4,6 @@
     gap: 15px;
     -webkit-column-gap: 15px;
     margin-top: 40px;
-    margin-bottom: 40px;
     grid-template-columns: auto auto auto;
     .classe-content {
         padding: 20px 20px;
@@ -45,7 +44,17 @@
             align-items: center;
             color: var(--blueColor);
             margin-top: 10px;
-            justify-content: flex-end;
+            justify-content: flex-start;
+            animation-delay: 5s;
+            animation: animate 5s linear infinite;
+            @keyframes animate {
+                0% {
+                    transform: translateY(-5px);
+                }
+                100% {
+                    transform: translateY(5px);
+                }
+            }
         }
     }
 }
