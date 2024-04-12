@@ -14,6 +14,16 @@
             justify-content: flex-end;
             color: var(--blueColor);
         }
+        .class-titular {
+            display: flex;
+            gap: 5px;
+            -webkit-column-gap: 5px;
+            align-items: center;
+            margin-top: 10px;
+            color: var(--blueColor);
+            font-weight: 500;
+            font-size: 0.9rem;
+        }
         .click-div {
             display: flex;
             gap: 5px;
