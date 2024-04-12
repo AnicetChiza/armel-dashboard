@@ -308,29 +308,6 @@ label {
   justify-content: flex-end;
   color: var(--blueColor);
 }
-.all-classes .classe-content p {
-  margin-bottom: 10px;
-}
-.all-classes .classe-content .icons-view {
-  padding: 5px 10px;
-  width: fit-content;
-  font-size: 0.8rem;
-  transition: 0.8s;
-  transition-delay: 0.2s;
-  border: 1px dashed var(--blueColor);
-}
-.all-classes .classe-content .icons-view a,
-.all-classes .classe-content .icons-view i {
-  color: var(--blueColor);
-}
-.all-classes .classe-content .icons-view:hover {
-  background-color: var(--blueColor);
-  border: 1px solid var(--blueColor);
-}
-.all-classes .classe-content .icons-view:hover a,
-.all-classes .classe-content .icons-view:hover i {
-  color: var(--whiteColor);
-}
 .all-classes .classe-content .click-div {
   display: flex;
   gap: 5px;
