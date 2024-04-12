@@ -526,6 +526,20 @@ label {
   background-color: var(--btnColor);
 }
 
+.tutor-connected {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  -webkit-column-gap: 5px;
+  justify-content: flex-end;
+}
+.tutor-connected img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
 .tutor-content {
   display: grid;
   grid-template-columns: auto auto;
