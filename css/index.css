@@ -308,6 +308,9 @@ label {
   justify-content: flex-end;
   color: var(--blueColor);
 }
+.all-classes .classe-content p {
+  font-size: 0.9rem;
+}
 .all-classes .classe-content .class-titular {
   display: flex;
   gap: 5px;
