@@ -10,8 +10,22 @@
         border-collapse: collapse;
         thead {
             display: flex;
+            width: 100%;
             tr {
                 display: flex;
+                text-align: left;
+                th {
+                    padding: 10px;
+                    border: 1px solid var(--blackColor);
+                }
+            }
+        }
+        tbody {
+            tr {
+                td {
+                    padding: 10px;
+                    border: 1px solid var(--blackColor);
+                }
             }
         }
     }

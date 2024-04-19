@@ -587,9 +587,19 @@ label {
 }
 .table-section table thead {
   display: flex;
+  width: 100%;
 }
 .table-section table thead tr {
   display: flex;
+  text-align: left;
+}
+.table-section table thead tr th {
+  padding: 10px;
+  border: 1px solid var(--blackColor);
+}
+.table-section table tbody tr td {
+  padding: 10px;
+  border: 1px solid var(--blackColor);
 }
 
 /********* all the content of the page titulaire **********/
