@@ -587,9 +587,9 @@ label {
 }
 .table-section table thead {
   display: flex;
-  width: 100%;
 }
 .table-section table thead tr {
+  width: 100%;
   display: flex;
   text-align: left;
 }
