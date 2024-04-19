@@ -7,17 +7,11 @@
     table {
         width: 100%;
         margin: auto;
+        border-collapse: collapse;
         thead {
             display: flex;
-            //gap: 10px;
-            //-webkit-column-gap: 10px;
             tr {
                 display: flex;
-                //gap: 10px;
-            }
-            th,
-            td {
-                border: 1px solid var(--blackColor);
             }
         }
     }

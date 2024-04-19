@@ -583,16 +583,13 @@ label {
 .table-section table {
   width: 100%;
   margin: auto;
+  border-collapse: collapse;
 }
 .table-section table thead {
   display: flex;
 }
 .table-section table thead tr {
   display: flex;
-}
-.table-section table thead th,
-.table-section table thead td {
-  border: 1px solid var(--blackColor);
 }
 
 /********* all the content of the page titulaire **********/
