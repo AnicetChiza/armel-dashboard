@@ -15,3 +15,10 @@ closeIcon.onclick = function() {
     openIcon.classList.remove('hidden');
     closeIcon.classList.add('hidden');
 }
+
+//Printing button
+const print = document.querySelector('.printButton');
+
+print.addEventListener('click', function() {
+    window.print();
+});

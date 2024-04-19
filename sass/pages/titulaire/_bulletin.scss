@@ -4,6 +4,12 @@
 .table-section {
     font-size: 0.8rem;
     padding: 40px 40px;
+    .identity {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
     table {
         width: 100%;
         margin: auto;
@@ -18,6 +24,19 @@
                     border: 1px solid var(--blackColor);
                 }
             }
+        }
+    }
+    .print {
+        display: flex;
+        justify-content: flex-end;
+        .printButton {
+            margin-top: 20px;
+            border: none;
+            padding: 10px 30px;
+            color: var(--whiteColor);
+            font-weight: 700;
+            cursor: pointer;
+            background-color: var(--blueColor);
         }
     }
 }

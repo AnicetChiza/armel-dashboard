@@ -581,6 +581,12 @@ label {
   font-size: 0.8rem;
   padding: 40px 40px;
 }
+.table-section .identity {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 .table-section table {
   width: 100%;
   margin: auto;
@@ -592,6 +598,19 @@ label {
 .table-section table tbody tr td {
   padding: 10px;
   border: 1px solid var(--blackColor);
+}
+.table-section .print {
+  display: flex;
+  justify-content: flex-end;
+}
+.table-section .print .printButton {
+  margin-top: 20px;
+  border: none;
+  padding: 10px 30px;
+  color: var(--whiteColor);
+  font-weight: 700;
+  cursor: pointer;
+  background-color: var(--blueColor);
 }
 
 /********* all the content of the page titulaire **********/
