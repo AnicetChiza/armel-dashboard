@@ -599,6 +599,17 @@ label {
   padding: 10px;
   border: 1px solid var(--blackColor);
 }
+.table-section .marks-content {
+  margin-top: 30px;
+  display: grid;
+  gap: 10px;
+  -webkit-column-gap: 10px;
+  grid-template-columns: auto auto auto auto;
+}
+.table-section .marks-content .bulletin-result {
+  padding: 20px 20px;
+  box-shadow: 0px 10px 15px var(--grayShadow);
+}
 .table-section .print {
   display: flex;
   justify-content: flex-end;
