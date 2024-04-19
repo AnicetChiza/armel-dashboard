@@ -577,6 +577,15 @@ label {
   transform: translateY(10px);
 }
 
+.table-section {
+  font-size: 0.8rem;
+  padding: 20px 20px;
+}
+.table-section table {
+  width: 100%;
+  margin: auto;
+}
+
 /********* all the content of the page titulaire **********/
 .add-titulaire {
   display: flex;
