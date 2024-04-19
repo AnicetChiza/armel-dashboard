@@ -578,24 +578,16 @@ label {
 }
 
 .table-section {
-  padding: 20px 20px;
+  font-size: 0.8rem;
+  padding: 40px 40px;
 }
 .table-section table {
   width: 100%;
   margin: auto;
   border-collapse: collapse;
 }
-.table-section table thead {
-  display: flex;
-}
-.table-section table thead tr {
-  width: 100%;
-  display: flex;
-  text-align: left;
-}
-.table-section table thead tr th {
-  padding: 10px;
-  border: 1px solid var(--blackColor);
+.table-section table tbody .head {
+  font-weight: 600;
 }
 .table-section table tbody tr td {
   padding: 10px;

@@ -2,25 +2,16 @@
 @use '../../utils/mixins' as *;
 //Here we are going to design the table
 .table-section {
-    //font-size: 0.8rem;
-    padding: 20px 20px;
+    font-size: 0.8rem;
+    padding: 40px 40px;
     table {
         width: 100%;
         margin: auto;
         border-collapse: collapse;
-        thead {
-            display: flex;
-            tr {
-                width: 100%;
-                display: flex;
-                text-align: left;
-                th {
-                    padding: 10px;
-                    border: 1px solid var(--blackColor);
-                }
-            }
-        }
         tbody {
+            .head {
+                font-weight: 600;
+            }
             tr {
                 td {
                     padding: 10px;
