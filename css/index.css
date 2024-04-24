@@ -607,8 +607,22 @@ label {
   grid-template-columns: auto auto auto auto;
 }
 .table-section .marks-content .bulletin-result {
-  padding: 20px 20px;
-  box-shadow: 0px 10px 15px var(--grayShadow);
+  border-bottom: 1px solid var(--blackColor);
+  border-right: 1px solid var(--blackColor);
+  border-left: 1px solid var(--blackColor);
+}
+.table-section .marks-content .bulletin-result h4,
+.table-section .marks-content .bulletin-result p {
+  padding: 5px;
+  border-top: 1px solid var(--blackColor);
+}
+.table-section .principal-signature {
+  margin-top: 40px;
+  display: grid;
+  justify-content: flex-end;
+}
+.table-section .principal-signature img {
+  width: 150px;
 }
 .table-section .print {
   display: flex;
