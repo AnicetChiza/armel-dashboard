@@ -623,9 +623,24 @@ label {
   padding: 5px;
   border-top: 1px solid var(--blackColor);
 }
+.table-section .admitted {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  justify-content: flex-end;
+  gap: 10px;
+  font-size: 1.2rem;
+  -webkit-column-gap: 10px;
+}
+.table-section .admitted i {
+  font-size: 1.5rem;
+  color: green;
+}
 .table-section .principal-signature {
   margin-top: 40px;
   display: grid;
+  text-align: center;
   justify-content: center;
 }
 .table-section .principal-signature img {
