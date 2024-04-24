@@ -581,6 +581,13 @@ label {
   font-size: 0.8rem;
   padding: 40px 40px;
 }
+.table-section .top-section {
+  display: flex;
+  justify-content: space-between;
+}
+.table-section .top-section .school-logo img {
+  width: 120px;
+}
 .table-section .identity {
   display: flex;
   justify-content: space-between;

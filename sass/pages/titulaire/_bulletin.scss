@@ -4,6 +4,15 @@
 .table-section {
     font-size: 0.8rem;
     padding: 40px 40px;
+    .top-section {
+        display: flex;
+        justify-content: space-between;
+        .school-logo {
+            img {
+                width: 120px;
+            }
+        }
+    }
     .identity {
         display: flex;
         justify-content: space-between;
