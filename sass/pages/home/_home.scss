@@ -23,6 +23,10 @@
             background-position: 0% 50%;
         }
     }
+    .home-item {
+        display: flex;
+        align-items: center;
+    }
     .home-page-container {
         height: 90vh;
         display: flex;
@@ -30,7 +34,6 @@
         flex-direction: column;
         justify-content: center;
         p {
-            width: 60%;
             margin-top: 20px;
         }
         div {
@@ -54,8 +57,12 @@
             }
         }
     }
-}
-
-footer {
-    text-align: center;
+    .home-image {
+        img {
+            width: 100%;
+        }
+    }
+    footer {
+        padding: 26.5px 20px;
+    }
 }
