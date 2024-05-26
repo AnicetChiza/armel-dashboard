@@ -28,6 +28,16 @@
         display: flex;
         align-items: center;
         padding: 40px 100px;
+        animation-delay: 0.8s;
+        animation: animate 5s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            transform: translateY(-7px);
+        }
+        50% {
+            transform: translateY(7px);
+        }
     }
     .home-page-container {
         height: 90vh;
