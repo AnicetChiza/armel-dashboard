@@ -293,7 +293,8 @@ label {
 
 .home-page {
   width: 100%;
-  height: 100vh;
+  height: 90vh;
+  overflow: hidden;
   background: radial-gradient(circle closest-side at center, rgb(178, 183, 188) 10%, rgba(245, 245, 245, 0.8) 70%);
   background-size: 200% 200%;
   animation: gradientAnimation 10s ease-in-out infinite;
@@ -318,42 +319,43 @@ label {
 .home-page .home-item {
   display: flex;
   align-items: center;
+  padding: 40px 100px;
 }
 .home-page .home-page-container {
   height: 90vh;
   display: flex;
-  padding: 40px 100px;
   flex-direction: column;
   justify-content: center;
 }
 .home-page .home-page-container p {
-  margin-top: 20px;
+  width: 80%;
+  margin-top: 15px;
 }
-.home-page .home-page-container div {
+.home-page .home-page-container .content-top {
   display: flex;
   flex-direction: row;
-  margin-top: 30px;
   gap: 10px;
+  font-size: 0.8rem;
+  margin-top: 20px;
   -webkit-column-gap: 10px;
+  background: unset;
 }
-.home-page .home-page-container div a {
-  padding: 10px 40px;
+.home-page .home-page-container .content-top a {
+  padding: 8px 30px;
   border-radius: 4px;
   color: var(--whiteColor);
   transition: 0.5s ease-in;
   border: 2px solid var(--blueColor);
   background-color: var(--blueColor);
 }
-.home-page .home-page-container div a:hover {
+.home-page .home-page-container .content-top a:hover {
   background: unset;
   color: var(--blueColor);
   border: 2px solid var(--blueColor);
 }
 .home-page .home-image img {
   width: 100%;
-}
-.home-page footer {
-  padding: 26.5px 20px;
+  border-radius: 20px;
 }
 
 .all-classes {
