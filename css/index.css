@@ -321,13 +321,33 @@ label {
   padding: 40px 100px;
   flex-direction: column;
   justify-content: center;
+  animation-delay: 0.8s;
+  animation: animate 5s linear infinite;
 }
 .home-page .home-page-container h2 {
   margin-bottom: 10px;
   color: var(--blueColor);
 }
+.home-page .home-page-container div {
+  padding: 10px 40px;
+  margin-top: 20px;
+  width: fit-content;
+  border-radius: 30px;
+  background-color: var(--blueColor);
+}
+.home-page .home-page-container div a {
+  color: var(--whiteColor);
+}
+@keyframes animate {
+  0% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
 .home-page footer {
-  padding: 25px 20px;
+  padding: 26.5px 20px;
 }
 
 .all-classes {
