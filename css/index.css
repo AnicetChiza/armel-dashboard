@@ -291,16 +291,20 @@ label {
   background-color: var(--blueColor);
 }
 
-.all-armel {
-  background: #c5c7c7;
+.home-page {
   width: 100%;
-  height: 100vh;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-color: var(--grayColor);
 }
 
 .hero-waves {
   display: block;
   width: 100%;
-  height: 60px;
+  height: 150px;
   position: relative;
 }
 
