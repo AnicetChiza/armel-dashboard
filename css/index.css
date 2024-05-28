@@ -353,7 +353,7 @@ label {
   height: 100vh;
   overflow: hidden;
   color: #fff;
-  background: linear-gradient(90deg, #000, #3f3f3f);
+  background: linear-gradient(90deg, #191919, #3f3f3f);
 }
 
 .home-item {
@@ -401,7 +401,7 @@ label {
   transition: 0.5s ease-in;
   border: 1px solid #fff;
   background-color: #fff;
-  color: #272827;
+  color: #000;
 }
 
 .content-top a:hover {
