@@ -1,16 +1,21 @@
 @use '../../utils/' as u;
 @use '../../utils/mixins' as *;
-.all-armel {}
-
 .home-page {
     width: 100%;
     height: 85vh;
     display: flex;
     gap: 40px;
+    text-align: center;
+    margin: auto;
     padding: 20px 80px;
     align-items: center;
     justify-content: center;
-    background-color: var(--grayColor);
+    //background-color: var(--grayColor);
+}
+
+.home-items {
+    margin: auto;
+    width: 60%;
 }
 
 .home-items h2 {
@@ -18,7 +23,7 @@
 }
 
 .home-items p {
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .home-img img {
@@ -29,6 +34,7 @@
     margin-top: 15px;
     display: flex;
     gap: 10px;
+    justify-content: center;
     a {
         width: 15%;
         text-align: center;

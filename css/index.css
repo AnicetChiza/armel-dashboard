@@ -296,10 +296,16 @@ label {
   height: 85vh;
   display: flex;
   gap: 40px;
+  text-align: center;
+  margin: auto;
   padding: 20px 80px;
   align-items: center;
   justify-content: center;
-  background-color: var(--grayColor);
+}
+
+.home-items {
+  margin: auto;
+  width: 60%;
 }
 
 .home-items h2 {
@@ -307,7 +313,7 @@ label {
 }
 
 .home-items p {
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 .home-img img {
@@ -318,6 +324,7 @@ label {
   margin-top: 15px;
   display: flex;
   gap: 10px;
+  justify-content: center;
 }
 .home-link a {
   width: 15%;
