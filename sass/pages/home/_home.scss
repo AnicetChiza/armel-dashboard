@@ -1,22 +1,14 @@
 @use '../../utils/' as u;
 @use '../../utils/mixins' as *;
-body {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
 .obj {
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
+    top: 30%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    transform: translate(-50%, -50%) rotateX(-25deg) rotateY(20deg);
     transform-style: preserve-3d;
     transition: 0.5s all;
-    transform: rotateX(-25deg) rotateY(20deg);
-    z-index: -1;
-    /* place it behind other content */
 }
 
 .objchild {
@@ -33,7 +25,7 @@ body {
     width: 100%;
     height: 100%;
     filter: blur(20px);
-    box-shadow: 0 0 200px 15px white;
+    box-shadow: 0 0 200px 15px rgba(255, 255, 255, 0.551);
     transform: rotateX(90deg) scale(1.1) translateZ(-120px);
 }
 
@@ -41,7 +33,7 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgb(21, 21, 21);
+    background: #151515ae;
     transform: rotateX(90deg) translateZ(100px);
     animation: updown 4s infinite ease-in-out;
 }
@@ -69,8 +61,11 @@ body {
 
 .home-page {
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     overflow: hidden;
+    color: #fff;
+    background: linear-gradient(90deg, #000, #3f3f3f);
+    //background: #272827e9;
 }
 
 .home-item {
@@ -91,7 +86,7 @@ body {
 }
 
 .home-page-container {
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -117,14 +112,15 @@ body {
     border-radius: 4px;
     color: var(--whiteColor);
     transition: 0.5s ease-in;
-    border: 1px solid var(--blueColor);
-    background-color: var(--blueColor);
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: #272827;
 }
 
 .content-top a:hover {
     background: unset;
-    color: var(--blueColor);
-    border: 1px solid var(--blueColor);
+    color: #fff;
+    border: 1px solid #fff;
 }
 
 .home-image img {
