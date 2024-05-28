@@ -5,12 +5,11 @@
     height: 85vh;
     display: flex;
     gap: 40px;
-    text-align: center;
     margin: auto;
     padding: 20px 80px;
     align-items: center;
-    justify-content: center;
-    //background-color: var(--grayColor);
+    justify-content: space-between;
+    background-color: var(--grayColor);
 }
 
 .home-items {
@@ -26,15 +25,15 @@
     margin-top: 20px;
 }
 
-.home-img img {
+.home-page img {
     width: 100%;
+    border-radius: 20px;
 }
 
 .home-link {
     margin-top: 15px;
     display: flex;
     gap: 10px;
-    justify-content: center;
     a {
         width: 15%;
         text-align: center;

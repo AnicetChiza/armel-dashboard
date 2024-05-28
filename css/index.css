@@ -296,11 +296,11 @@ label {
   height: 85vh;
   display: flex;
   gap: 40px;
-  text-align: center;
   margin: auto;
   padding: 20px 80px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  background-color: var(--grayColor);
 }
 
 .home-items {
@@ -316,15 +316,15 @@ label {
   margin-top: 20px;
 }
 
-.home-img img {
+.home-page img {
   width: 100%;
+  border-radius: 20px;
 }
 
 .home-link {
   margin-top: 15px;
   display: flex;
   gap: 10px;
-  justify-content: center;
 }
 .home-link a {
   width: 15%;
