@@ -355,13 +355,13 @@ label {
   border-radius: 4px;
   color: var(--whiteColor);
   transition: 0.5s ease-in;
-  border: 2px solid var(--blueColor);
+  border: 1px solid var(--blueColor);
   background-color: var(--blueColor);
 }
 .home-page .home-page-container .content-top a:hover {
   background: unset;
   color: var(--blueColor);
-  border: 2px solid var(--blueColor);
+  border: 1px solid var(--blueColor);
 }
 .home-page .home-image img {
   width: 100%;
